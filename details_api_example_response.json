@@ -1,0 +1,157 @@
+
+{
+    "user": {
+      "uniqueId": "68a9739ee4b021e0fa5be7d8",
+      "email": "XXXXXXX@gmail.com",
+      "phone": "0000000000",
+      "role": "Startup",
+      "name": "SHRI GANPATI INDUSTRIES",
+      "image": "9aee8503-391f-4984-b4d4-b649211e42bc.png",
+      "companyLogo": true,
+      "stateRecognized": null,
+      "migratedUser": false,
+      "coverImage": null,
+      "eventRegId": "OI-0825-9275VU",
+      "gallery": null,
+      "startup": {
+        "name": "SHRI GANPATI INDUSTRIES",
+        "startupEntity": "5f48ce5f2a9bb065cdfa185d",
+        "legalName": "SHRI GANPATI INDUSTRIES",
+        "cin": "2706252732",
+        "pan": "AFGFS1706L",
+        "logo": null,
+        "stage": "Validation",
+        "udyogAadhar": "",
+        "dippCertified": true,
+        "dippNumber": "DIPP219300",
+        "dippRecognitionStatus": "RECOGNISED",
+        "form56Applied": false,
+        "form56Status": null,
+        "form80IacApplied": false,
+        "form80IacStatus": null,
+        "ideaBrief": "Shri Ganpati Industries combines *modern manufacturing infrastructure* with continuous innovation to deliver reliable electrical control boxes, modular boxes, panels, and PET bottles. With a focus on scalability and customization, we cater to both industrial and commercial clients across diverse sectors.",
+        "members": null,
+        "enabled": true,
+        "funded": false,
+        "location": {
+          "country": {
+            "id": "5f02e38c6f3de87babe20cd2",
+            "name": null,
+            "text": null,
+            "countryName": "India",
+            "deleted": false
+          },
+          "state": {
+            "id": "5f48ce592a9bb065cdf9fb25",
+            "name": null,
+            "text": null,
+            "stateName": "Chhattisgarh",
+            "deleted": false,
+            "isUnionTerritory": false
+          },
+          "city": {
+            "id": "5f48ce5a2a9bb065cdf9fcc5",
+            "name": null,
+            "text": null,
+            "districtName": "Raipur",
+            "deleted": false,
+            "state": {
+              "id": "5f48ce592a9bb065cdf9fb25",
+              "name": null,
+              "text": null,
+              "stateName": "Chhattisgarh",
+              "deleted": false,
+              "isUnionTerritory": false
+            },
+            "isActive": true
+          },
+          "cities": null
+        },
+        "focusArea": {
+          "industry": {
+            "id": "5f48ce5f2a9bb065cdfa1742",
+            "name": null,
+            "text": null,
+            "industryName": "Renewable Energy",
+            "orderFlag": 24,
+            "deleted": false
+          },
+          "sectors": [
+            {
+              "id": "5f6309cd2643793f541c77af",
+              "name": null,
+              "text": null,
+              "sectionName": "Manufacture of Electrical Equipment",
+              "orderFlag": null,
+              "deleted": false,
+              "startupIndustry": {
+                "id": "5f48ce5f2a9bb065cdfa1742",
+                "name": null,
+                "text": null,
+                "industryName": "Renewable Energy",
+                "orderFlag": 24,
+                "deleted": false
+              }
+            }
+          ]
+        },
+        "services": [
+          "5f48ce5f2a9bb065cdfa184d",
+          "5f48ce5f2a9bb065cdfa184e",
+          "5f48ce5f2a9bb065cdfa185a"
+        ],
+        "website": "https://www.google.com/search?q=shri+ganpati+industries&amp;rlz=1C1VDKB_enIN1137IN1137&amp;oq=Shri+Ganpati+Industries&amp;gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEA",
+        "mobileAppLink": null,
+        "businessPlan": null,
+        "lookingToConnectTo": [
+          "Investor",
+          "Mentor",
+          "Startup"
+        ],
+        "linkedInUrl": null,
+        "mentorshipParticipant": false,
+        "mentorship": null,
+        "socialInfos": null,
+        "address": null,
+        "interestedArea": null,
+        "startupServices": null,
+        "recognitionFormRequest": {
+          "id": "68a973a5e4b021e0fa5be7ff",
+          "userId": "68a9739ee4b021e0fa5be7d8",
+          "applied": true,
+          "cin": "2706252732",
+          "referenceNo": "R230825217305",
+          "reg_id": "68a973a4a1bcc9405a140a17",
+          "lastAccordionSaved": null,
+          "isUpdatedByScheduler": null,
+          "isCheckedByScheduler": true,
+          "form80id": null,
+          "form56id": null
+        }
+      },
+      "switchedUser": false
+    },
+    "points": 40,
+    "numberOfConnection": 0,
+    "connectionStatus": {
+      "connected": false,
+      "connectionAllowed": false,
+      "connectionSent": false,
+      "connectionRecieved": false,
+      "weeklyThresholdReached": false
+    },
+    "createdOn": 1755935646181,
+    "lastUpdatedOn": null,
+    "lastPublishedOn": 1756710210775,
+    "autoEnableOn": null,
+    "disabledOn": null,
+    "rejectedOn": null,
+    "badges": [
+      "CIN_CERTIFIED"
+    ],
+    "assignedBadges": [],
+    "allowProfileEdit": false,
+    "published": false,
+    "passwordKey": false,
+    "eventRegId": "OI-0825-9275VU"
+  }

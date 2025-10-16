@@ -1,0 +1,16 @@
+{
+  "listing_api_url": "https://api.startupindia.gov.in/sih/api/noauth/search/profiles",
+  "details_api_url": "https://api.startupindia.gov.in/sih/api/common/replica/user/profile/",
+  "cin_api_url": "https://api.startupindia.gov.in/sih/api/noauth/dpiit/services/cin/info",
+  "state_id": "5f48ce592a9bb065cdf9fb25",
+  "rate_limit_delay": 0.5,
+  "retry_attempts": 3,
+  "retry_backoff": 2,
+  "checkpoint_interval": 50,
+  "scrape_all_states": false,
+  "states": [
+    "5f48ce592a9bb065cdf9fb25"
+  ],
+  "comment": "Set scrape_all_states to true to scrape all of India, or add state IDs to the states array"
+}
+

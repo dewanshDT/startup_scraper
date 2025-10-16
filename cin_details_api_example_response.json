@@ -1,0 +1,25 @@
+{
+    "status": true,
+    "message": "Valid cin",
+    "data": {
+      "cin": "U74901CT2025PTC017621",
+      "companyName": "NEOSYNCORP PRIVATE LIMITED",
+      "companyStatus": "Active",
+      "email": "neosyncorp@gmail.com",
+      "financialAuditStatus": "null",
+      "financialDetails": [
+        {
+          "profitLoss": "null",
+          "turnOver": "null",
+          "year": "null"
+        }
+      ],
+      "incorpdate": "12-03-2025",
+      "registeredAddress": "Behind Arjun Enclave",
+      "registeredContactNo": "9229330903",
+      "isValidIncorporationNo": true,
+      "message": "MCA details fetched successfully",
+      "status": "true"
+    },
+    "rpCount": 0
+  }
