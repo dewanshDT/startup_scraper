@@ -221,17 +221,30 @@ class StartupScraper:
         location = startup.get("location", {})
         focus_area = startup.get("focusArea", {})
 
-        # Extract location info
-        country = location.get("country", {}).get("countryName")
-        state = location.get("state", {}).get("stateName")
-        city = location.get("city", {}).get("districtName")
+        # Extract location info with null safety
+        country = (
+            location.get("country", {}).get("countryName")
+            if location.get("country")
+            else None
+        )
+        state = (
+            location.get("state", {}).get("stateName")
+            if location.get("state")
+            else None
+        )
+        city = (
+            location.get("city", {}).get("districtName")
+            if location.get("city")
+            else None
+        )
 
-        # Extract industry and sectors
-        industry = focus_area.get("industry", {}).get("industryName")
+        # Extract industry and sectors with null safety
+        industry_obj = focus_area.get("industry") if focus_area else None
+        industry = industry_obj.get("industryName") if industry_obj else None
+
+        sectors_list = focus_area.get("sectors", []) if focus_area else []
         sectors = [
-            s.get("sectionName")
-            for s in focus_area.get("sectors", [])
-            if s.get("sectionName")
+            s.get("sectionName") for s in sectors_list if s and s.get("sectionName")
         ]
 
         # Build structured data
