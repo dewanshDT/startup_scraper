@@ -102,7 +102,8 @@ def analyze_data(data: List[Dict]):
     all_connections = []
     for s in data:
         connections = s.get("lookingToConnectTo", [])
-        all_connections.extend(connections)
+        if connections:  # Check if not None
+            all_connections.extend(connections)
     connection_counts = Counter(all_connections)
 
     print("\n" + "-" * 70)
@@ -115,7 +116,8 @@ def analyze_data(data: List[Dict]):
     all_badges = []
     for s in data:
         badges = s.get("badges", [])
-        all_badges.extend(badges)
+        if badges:  # Check if not None
+            all_badges.extend(badges)
     badge_counts = Counter(all_badges)
 
     print("\n" + "-" * 70)
