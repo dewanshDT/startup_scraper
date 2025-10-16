@@ -65,6 +65,21 @@ class StartupScraper:
     def _create_session(self) -> requests.Session:
         """Create a requests session with retry logic."""
         session = requests.Session()
+
+        # Add browser-like headers to avoid 403 errors
+        session.headers.update(
+            {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://www.startupindia.gov.in/",
+                "Origin": "https://www.startupindia.gov.in",
+                "Connection": "keep-alive",
+                "Content-Type": "application/json",
+            }
+        )
+
         retry_strategy = Retry(
             total=self.config["retry_attempts"],
             backoff_factor=self.config["retry_backoff"],
